@@ -1,0 +1,30 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #444746;
+}
+
+#nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 14px 16px;
+}
+
+#nav-ul li {
+    display: inline;
+    font-size: 16px;
+}
+
+#nav-ul a {
+    float: right;
+    color: white;
+    text-decoration: none;
+    padding: 10px 12px;
+}
+
+#nav-ul a:hover {
+    text-decoration: underline;
+}
+
+
