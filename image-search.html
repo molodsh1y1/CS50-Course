@@ -3,8 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <title>Image Search</title>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a class="google-search" href="index.html">Google Search</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <form class="search-bar" action="https://google.com/search" target="_blank">
+      <input type="hidden" name="tbm" value="isch">
+      <div class="input-group">
+        <input type="text" name="q" class="search-input">
+      </div>
+      <div class="input-group">
+        <input type="submit" value="Search Images" class="submit-input">
+      </div>
+  </form>
 </body>
 </html>
