@@ -1,9 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Advanced Search</title>
-</head>
-<body>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+        <header class="site-header">
+            <nav>
+                <ul>
+                    <li>
+                      <a class="google-search" href="index.html">Google Search</a>
+                    </li>
+                </ul>
+            </nav>
+            <h1>Advanced Search</h1>
+        </header>
+        <form class="advanced-search-bar" action="https://google.com/search" method="get" name="f">
+            <h1>Find pages with...</h1>
+            <div class="search-container">
+                <div class="item">
+                    <div class="label-item">
+                        <label for="all-words">all these words:</label>
+                    </div>
+                    <div class="input-item">
+                        <input type="text" id="all-words" name="all-words">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="label-item">
+                        <label for="exact-text">this exact word or phrase:</label>
+                    </div>
+                    <div class="input-item">
+                        <input type="text" id="exact-text" name="exact-text">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="label-item">
+                        <label for="any-of-words">any of these words:</label>
+                    </div>
+                    <div class="input-item">
+                        <input type="text" id="any-of-words" name="any-of-words">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="label-item">
+                        <label for="none-of-words">none of these words:</label>
+                    </div>
+                    <div class="input-item">
+                        <input type="text" id="none-of-words" name="none-of-words">
+                    </div>
+                </div>
+                <div class="advanced-search-button">
+                    <div class="advanced-button-container">
+                        <input type="submit" value="Advanced Search" class="submit-input" id="advanced-submit-input">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </body>
 </html>

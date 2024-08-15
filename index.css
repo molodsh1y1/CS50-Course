@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    padding: 10px 0 10px 10px;
+    padding: 10px 0;
 }
 
 nav {
@@ -53,7 +53,7 @@ nav ul {
 }
 
 .submit-input {
-    margin: 20px 10px 0 0;
+    margin-top: 20px;
     padding: 8px 12px;
     font-size: 14px;
     border-radius: 4px;
@@ -72,3 +72,95 @@ nav ul {
     cursor: pointer;
     outline: none !important;
 }
+
+.site-header {
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    color: #f28b82;
+    font-size: 24px;
+    margin: 0 0 18px 40px;
+    user-select: none;
+}
+
+.advanced-search-bar {
+    width: 100%;
+    padding-left: 40px;
+    min-width: 200px;
+    max-width: 800px;
+}
+
+.advanced-search-bar::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.advanced-search-bar h1 {
+    color: #FCFCFD;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: 100;
+    width: 100%;
+}
+
+.search-container {
+    width: 100%;
+}
+
+.item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.label-item {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.label-item label {
+    height: 50%;
+    font-size: 14px;
+    color: #969ba1;
+}
+
+.input-item {
+    width: 70%;
+    height: 36px;
+}
+
+.input-item input {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #303134;
+    border: 1px solid #444746;
+    padding: 5px 5px 5px 10px;
+    color: #FCFCFD;
+}
+
+.input-item input:focus {
+    border: 1px solid #9DF7E5;
+    outline: none;
+}
+
+.advanced-search-button {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+#advanced-submit-input {
+    margin-top: 10px;
+}
+
+#advanced-submit-input:hover {
+    cursor: auto;
+}
+
